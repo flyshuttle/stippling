@@ -2,7 +2,7 @@ float CELL_SIZE = 10.0;
 boolean DEBUG = false;
 PImage img;
 ParticleSystem particles;
-boolean RECORD = true;
+boolean RECORD = false;
 
 void setup() {
   size(500, 500);  
@@ -31,4 +31,3 @@ void draw() {
     }
   }
 }
-
